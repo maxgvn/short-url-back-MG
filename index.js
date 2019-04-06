@@ -39,6 +39,8 @@ app.get("/", function(req, res) {
   res.send("The index page");
 });
 
+console.log("yes");
+
 // Post url and shorten
 app.post("/shorten", function(req, res) {
   res.send("Submit here");
